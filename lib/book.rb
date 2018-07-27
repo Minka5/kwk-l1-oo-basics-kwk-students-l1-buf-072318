@@ -17,4 +17,9 @@ class Book
 end
 
 
-Book.new("the great gatsby")
+the_great_gatsby = Book.new("the great gatsby")
+
+the_great_gatsby.author = "f. scott fitzgerald"
+
+the_great_gatsby.genre = "fiction"
+puts the_great_gatsby.genre
