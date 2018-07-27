@@ -5,14 +5,11 @@ class Book
   
   attr_reader :title, :author 
   
-  def initialize(title, author)
+  def initialize(title)
     @title = title
-    @author = author 
   end 
     
-    
-  
-  
+
 end
 
-HarryPotter = Book.new("Harry Potter", "JK Rowling")
+
