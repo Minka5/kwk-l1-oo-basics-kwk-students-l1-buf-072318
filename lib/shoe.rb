@@ -7,7 +7,7 @@ def initialize(brand)
   @brand = brand
  end
 def cobble
-  puts "Your shoes are good as new!"
+  puts "Your shoe is good as new!"
   @condition = "good"
 end
 end
