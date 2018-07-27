@@ -12,9 +12,9 @@ class Book
     
   def turn_page
     puts "flipping the page..wow you read fast!"
-end 
+  end 
 
 end
 
 
-Book.new(4)
+Book.new("the great gatsby")
